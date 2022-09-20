@@ -1,0 +1,211 @@
+
+.content{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.title-form{
+    text-align: center;
+    font-size: 3em;
+}
+
+label{
+    color: white;
+}
+
+.contact-container{
+    width: 100%;
+    box-shadow: 1px 1px 15px white;
+}
+
+.contact-container > *{
+    padding: 1em;
+}
+
+.row-container-form{
+    width: 100%;
+}
+
+.contact-form{
+    background-color: #121744;
+}
+
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid rgb(12, 243, 243);
+    color: white;
+}
+.contact-form form button{
+    width: 100%;
+    background-color: #243B55;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus{
+    background-color: #595b5e;
+    transition: background-color .5s ease-out;
+    outline: 0;
+}
+
+.contact-info{
+    background-color: black;
+    color: white;
+}
+
+.contact-info h4,
+.contact-info ul{
+    text-align: center;
+    margin: 0 0 1rem 0;
+    margin-top: 1em;
+}
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li{
+    padding: .3em;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    max-height: 95vh;
+}
+
+.mapa iframe{
+    padding: 2%;
+    height: 35vh;
+    max-width: 100%;
+}
+
+
+/*//////FORMULARIO DE CONTACTO//////*/
+
+
+
+
+
+/*
+.container-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+	margin-top: 5% ;
+    padding: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.container-form h2{
+    color: white;
+    font-weight: 900;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline 5px;
+}
+
+form{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.datos{
+	display: flex;
+	flex-direction: column;
+	margin-right: 5%;
+	margin-top: 1%;
+	width: 30%;
+	padding: 1%;
+	
+}
+
+
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+	background: #0f0c29;  
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+	border-bottom: rgb(16, 226, 233) 1px solid ;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+}
+input::shadow{
+	border: none;
+}
+
+
+
+.escribir-mensaje{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+textarea{
+	width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+	background: #0f0c29;  
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+	margin-top: 7%;
+    min-height: 100px;
+    max-height: 300px;
+    max-width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+	border-radius: 28px;
+	border: rgb(16, 226, 233) 1px solid ;
+	text-align: center;
+}
+
+
+
+
+.boton-form{
+    border-radius: 30px;
+    background-color: white;
+	color: #000;
+	font-weight: 900;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+}
+
+.boton-form:hover{
+    background-color: rgb(16, 226, 233);
+    cursor: pointer;
+    
+}
+*/

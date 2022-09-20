@@ -1,0 +1,680 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: azure;
+}
+
+/*COPYRIGHT*/
+.copyright{
+    font-family: monospace;
+}
+
+.copyright a{
+    text-decoration: none;
+}
+.copyright a h5{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.copyright h5:hover{
+    color: aqua;
+}
+
+
+
+
+
+
+/******************************/
+/*MEDIA QUERY MIN-WIDTH: 320PX*/
+/******************************/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    /*NAV*/
+
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        box-shadow: 1px 1px 10px gray;
+        margin: 0%;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: left;
+        width: 15%;
+      }
+      .navbar-brand img{
+        width: 50vw;
+        height: 12vh;
+        margin-left: 20%;
+      }
+      .navbar-nav{
+        margin-right: 5%;
+      }
+      .navbar-nav .nav-item{
+        font-size: 1em;
+        padding: 5%;
+        color: white;
+      }
+      .navbar-nav .nav-item:hover{
+        color: aqua;
+        transition: 0.1s ease-in;
+      }
+    
+    
+    /*CARRUSEL*/
+    
+    .section-carrusel{
+        margin-top: 11vh;
+    }        
+    .carousel-inner{
+        height: 35vh;
+    }
+    .carousel-inner img{
+        height: 35vh;
+    }
+    
+    /* PRESENTACION */
+    
+    .presentacion{
+        padding: 5%;
+        text-align: center;
+        color: white;
+        background-color: rgb(31, 168, 127);
+    }
+    .presentacion h1{
+        font-size: 2em;
+    }
+    
+    .presentacion p{
+        font-size: 1em;
+    }
+    
+    
+    /* SERVICIOS */
+    
+    
+    .section-servicios{
+        background-color: rgb(9, 9, 56);
+        color: white ;
+        
+    }
+    .section-servicios h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+    }
+    .section-servicios img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 30px;
+    }
+
+    .servicios-izquierda{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        box-shadow: 1px 1px 15px rgba(208, 209, 212, 0.349);
+        border-radius: 30px;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-servicios h3{
+        font-size: 1.8em;
+        text-align: center;
+        margin: 3%;
+
+    }
+
+    .section-servicios p{
+        font-size: 1em;
+        text-align: center;
+        margin: 3%;
+    }
+
+
+    /*SECTION NUESTRAS OBRAS*/
+
+    .section-nuestasobras{
+        padding: 4%;
+        background-image: url(../imagenes/fondoobra4.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+    }
+
+    
+
+    .section-nuestasobras h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+        border-radius: 30px;
+    }
+    .section-nuestasobras .container-obras{
+        padding: 5%;
+        border-radius: 30px;    }
+    .section-nuestasobras h3{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .section-nuestasobras ul li{
+        text-align: center;
+        font-size: 1em;
+        list-style: none;
+    }
+
+    .nuestras-obras h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .nuestras-obras{
+        background-color: rgba(0, 0, 0, 0.555);
+    }
+
+    
+
+    /* SECTION CLIENTES*/
+
+    .clientes{
+        padding: 4%;
+        background-size: cover;
+        background-clip:border-box;
+        color: rgb(54, 54, 54);
+    }
+
+    .clientes h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+    }
+    .row-clientes{
+        text-align: center;
+    }
+    .row-clientes img{
+        margin-top: 4%;
+        text-align: center;
+        width: 35vw;
+        padding-bottom: 6%;
+        transition: 0.5s ease-in-out;
+        padding: 5%;
+    }
+    .row-clientes img:hover{
+        text-align: center;
+        transition: 0.5s ease-in-out;
+        transform: scale(1);
+    }
+
+    /*FOOTER*/
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(27, 27, 63);
+        color: white;
+        padding: 2%;
+    }
+
+    footer h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+        margin-top: 2%;
+    }
+    
+    /*FOMULARIO*/
+
+    .contenedor-contacto{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 1em;
+        box-shadow: 1px 1px 15px lightblue;
+        border-radius: 30px;
+    }
+    .contenedor-formulario{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    input, textarea{
+        width: 100%;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid aqua;
+        background-color: rgb(27, 27, 63);
+        color: white;
+    }
+
+    .contenedor-formulario button{
+        width: 100%;
+        outline: none;
+        color: white;
+        background-color: rgb(8, 8, 99);
+        border: 3px solid white;
+        border-radius: 30px;
+    }
+
+    .contenedor-formulario button:hover{
+        background-color: rgb(3, 3, 51);
+        border: 3px solid aqua;
+    }
+
+
+    label{
+        font-weight: bold;
+        margin-top: 2em;
+        color: white;
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        width: 100%;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .contenedor-info ul li{
+        text-align: justify;
+        list-style: none;
+    }
+
+    .contenedor-info .mapa iframe{
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    .contenedor-info h3{
+        font-size: 1em;
+    }
+    
+
+
+}
+
+  
+
+/******************************/
+/*MEDIA QUERY MIN-WIDTH: 576PX*/ 
+/******************************/
+
+
+
+/******************************/
+/*MEDIA QUERY MIN-WIDTH: 768PX*/ 
+/******************************/
+
+
+
+/******************************/
+/*MEDIA QUERY MIN-WIDTH: 992PX*/ 
+/******************************/
+
+
+
+
+
+/*******************************/
+/*MEDIA QUERY MIN-WIDTH: 1024PX*/ 
+/*******************************/
+
+
+
+
+
+/*******************************/
+/*MEDIA QUERY MIN-WIDTH: 1200PX*/ 
+/*******************************/
+
+
+
+@media (min-width: 1200px){
+
+    /*NAV*/
+
+    nav{
+        box-shadow: 1px 1px 10px gray;
+        
+      }
+      .container-fluid{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 500;
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        box-shadow: 1px 1px 10px gray;
+        margin: 0%;
+        
+      }
+      
+      .navbar{
+        width: 10%;
+      }
+      
+      .navbar-collapse{
+        display: flex;
+        justify-content: right;
+        width: 15%;
+      }
+      .navbar-brand img{
+        width: 19vw;
+        height: 14vh;
+        margin-left: 20%;
+      }
+      .navbar-nav{
+        margin-right: 5%;
+      }
+      .navbar-nav .nav-item{
+        font-size: 1em;
+        padding: 5%;
+        color: white;
+      }
+      .navbar-nav .nav-item:hover{
+        color: aqua;
+        transition: .3s ease-in;
+      }
+    
+    
+    /*CARRUSEL*/
+    
+    .section-carrusel{
+        margin-top: 13vh;
+    }        
+    .carousel-inner{
+        height: 70vh;
+    }
+    .carousel-inner img{
+        height: 70vh;
+    }
+    
+    /* PRESENTACION */
+    
+    .presentacion{
+        padding: 5%;
+        text-align: center;
+        color: white;
+        background-color: rgb(31, 168, 127);
+    }
+    .presentacion h1{
+        font-size: 3em;
+    }
+    
+    .presentacion p{
+        font-size: 1.5em;
+    }
+    
+    
+    /* SERVICIOS */
+    
+    
+    .section-servicios{
+        padding: 5%;
+        background-color: rgb(9, 9, 56);
+        color: white ;
+    }
+    .section-servicios h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .section-servicios img{
+        width: 100%;
+        height: 50vh;
+        border-radius: 30px;
+    }
+
+    .servicios-izquierda{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        box-shadow: 1px 1px 15px rgba(208, 209, 212, 0.349);
+        border-radius: 30px;
+    }
+
+
+    .section-servicios h3{
+        font-size: 2em;
+        text-align: center;
+        margin: 3%;
+
+    }
+
+    .section-servicios p{
+        font-size: 1.3em;
+        text-align: center;
+        margin: 3%;
+    }
+
+
+    /*SECTION NUESTRAS OBRAS*/
+
+    .section-nuestasobras{
+        padding: 4%;
+        background-image: url(../imagenes/fondoobra4.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        color: white;
+    }
+
+    
+
+    .section-nuestasobras h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+        border-radius: 30px;
+    }
+    .section-nuestasobras .container-obras{
+        padding: 5%;
+        border-radius: 30px;    }
+    .section-nuestasobras h3{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .section-nuestasobras ul li{
+        text-align: center;
+        font-size: 1.4em;
+        list-style: none;
+    }
+
+    .nuestras-obras h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .nuestras-obras{
+        background-color: rgba(0, 0, 0, 0.37);
+    }
+
+    
+
+    /* SECTION CLIENTES*/
+
+    .clientes{
+        padding: 4%;
+        background-size: cover;
+        background-clip:border-box;
+        color: rgb(54, 54, 54);
+    }
+
+    .clientes h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .row-clientes{
+        text-align: center;
+    }
+    .row-clientes img{
+        margin-top: 4%;
+        text-align: center;
+        width: 15vw;
+        padding-bottom: 6%;
+        transition: 0.5s ease-in-out;
+        padding: 5%;
+    }
+    .row-clientes img:hover{
+        margin-top: 4%;
+        text-align: center;
+        transition: 0.5s ease-in-out;
+        transform: scale(1);
+    }
+
+    /*FOOTER*/
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(27, 27, 63);
+        color: white;
+        padding: 2%;
+    }
+
+    footer h2{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+        margin-top: 2%;
+    }
+    
+    /*FOMULARIO*/
+
+    .contenedor-contacto{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 1em;
+        box-shadow: 1px 1px 15px lightblue;
+        border-radius: 30px;
+    }
+    .contenedor-formulario{
+        width: 68%;
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    input, textarea{
+        width: 100%;
+        outline: none;
+        border: 0;
+        border-bottom: 1px solid aqua;
+        background-color: rgb(27, 27, 63);
+        color: white;
+    }
+
+    .contenedor-formulario button{
+        width: 100%;
+        outline: none;
+        color: white;
+        background-color: rgb(8, 8, 99);
+        border: 3px solid white;
+        border-radius: 30px;
+    }
+
+    .contenedor-formulario button:hover{
+        background-color: rgb(3, 3, 51);
+        border: 3px solid aqua;
+    }
+
+
+    label{
+        font-weight: bold;
+        margin-top: 2em;
+        color: white;
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        width: 30%;
+        border-radius: 30px;
+        text-align: center;
+    }
+
+    .contenedor-info ul li{
+        text-align: justify;
+        list-style: none;
+    }
+
+    .contenedor-info .mapa iframe{
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    .contenedor-info h3{
+        font-size: 1em;
+    }
+    
+
+
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <!--<link rel="stylesheet" href="./css/formulario.css">-->
+
+
+</head>
+<body>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="imagenes/tecnoarg-horizontal-letras blancas-sin fondo.png" height="28" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#inicio" class="nav-item nav-link active">INICIO</a>
+                    <a href="#somos" class="nav-item nav-link">QUIENES SOMOS</a>
+                    <a href="#servicios" class="nav-item nav-link">SERVICIOS</a>
+                    <!--<a href="#galeria" class="nav-item nav-link">GALERIA</a>-->
+                    <a href="#contacto" class="nav-item nav-link">CONTACTO</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+        <!--SECTION CARRUSEL-->
+    
+    <section class="section-carrusel" id="inicio">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="3"></li>
+            </ol>
+        
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/FTTH (11).png" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-caption">
+                    <div class="wow fadeInUp animated" data-wow-offset="0" data-wow-delay="0.9s" style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+                      <form class="form-inline">
+                        <div class="form-group">
+                            <h3>FTTH Y WIRELESS</h3>
+                            <a href="#servicios" class="nav-item nav-link">
+                                <button type="button" name="subscribe" class="btn btn-primary btn">MAS INFO</button>
+                            </a>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                <div class="carousel-item">
+                  
+                    <img src="./imagenes/44.png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-caption">
+                    <div class="wow fadeInUp animated" data-wow-offset="0" data-wow-delay="0.9s" style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+                      <form class="form-inline">
+                        <div class="form-group">
+                            <h3>TENDIDO DE FIBRA Y POLIGONOS DE FO.</h3>
+                            <a href="#servicios" class="nav-item nav-link">
+                                <button type="button" name="subscribe" class="btn btn-primary btn">MAS INFO</button>
+                            </a>
+                          
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                <div class="carousel-item">
+                    
+                    <img src="./imagenes/35.png" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-caption">
+                    <div class="wow fadeInUp animated" data-wow-offset="0" data-wow-delay="0.9s" style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+                      <form class="form-inline">
+                        <div class="form-group">
+                            <h3>ALARMAS Y CCTV</h3>
+                            <a href="#servicios" class="nav-item nav-link">
+                                <button type="button" name="subscribe" class="btn btn-primary btn">MAS INFO</button>
+                            </a>
+                          
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                <div class="carousel-item">
+                  
+                    <img src="./imagenes/42.png" class="d-block w-100" alt="Slide 4">
+                </div>
+                <div class="carousel-caption">
+                    <div class="wow fadeInUp animated" data-wow-offset="0" data-wow-delay="0.9s" style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+                      <form class="form-inline">
+                        <div class="form-group">
+                            <h3>OBRAS CIVILES</h3>
+                            <a href="#servicios" class="nav-item nav-link">
+                                <button type="button" name="subscribe" class="btn btn-primary btn">MAS INFO</button>
+                            </a>
+                          
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+        
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </section>
+
+    <!--SECTION QUIENES SOMOS-->
+    
+    <section class="presentacion" id="somos">
+        <h1>QUIENES SOMOS</h1>
+        <p>Somos una empresa joven, pero con amplia experiencia que apunta a brindar soluciones. <br> Tecno Argentina es pionera en la realización de obras civiles en Barrios Privados que permiten el acceso a internet por Fibra Óptica.
+            Realizamos y ejecutamos los proyectos a la medida de cada necesitad.</p>
+    </section>
+
+    <!--SECTION SERVICIOS-->
+    
+    <section class="section-servicios" >
+        <h2>SERVICIOS</h2>
+            <div class="container cardcontain">
+                <div class="row cardrow" id="servicios">
+                    <!--CARD 1-->
+                    <div class="servicios-izquierda left" data-aos="zoom-in">
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-img-izquierda">
+                            <img src="./imagenes/alarma.jpg" class="card-img-top" alt="Sample Image" >
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-text-izquierda">
+                            <h3 class="card-title">Instalaciones de FTTH y Wireless</h3>
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno ezclótextos especimen. </p>
+                        </div>
+                    </div>
+
+                        <br>
+                    <!--CARD 2-->
+                    <div class="servicios-izquierda right" data-aos="zoom-in">
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-text-izquierda">
+                            <h3 class="card-title">Instalaciones de FTTH y Wireless</h3>
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno ezclótextos especimen. </p>
+
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-img-izquierda">
+                                <img src="./imagenes/alarma.jpg" class="card-img-top" alt="Sample Image" >
+                        </div>
+                    </div>
+
+                        <br>
+                    <!--CARD 3-->
+                    <div class="servicios-izquierda left" data-aos="zoom-in">
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-img-izquierda">
+                            <img src="./imagenes/alarma.jpg" class="card-img-top" alt="Sample Image" >
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-text-izquierda">
+                            <h3 class="card-title">Instalaciones de FTTH y Wireless</h3>
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno ezclótextos especimen. </p>
+
+                        </div>
+                    </div>
+
+                        <br>
+                    <!--CARD 4-->
+                    <div class="servicios-izquierda right" data-aos="zoom-in">
+                        <div class="col-sm-12 col-md-12 col-lg-6 servicios-text-izquierda">
+                            <h3 class="card-title">Instalaciones de FTTH y Wireless</h3>
+                            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno ezclótextos especimen. </p>
+
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 servicios-img-izquierda">
+                            <img src="./imagenes/alarma.jpg" class="card-img-top" alt="Sample Image" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!--SECTION NUESTAS OBRAS-->
+
+    <section class="section-nuestasobras" >
+        <div class="container container-obras">
+            <div class="row nuestras-obras">
+                <h2 class="h2">ALGUNAS DE NUESTRAS OBRAS</h2>
+                <div class="col-sm-12 col-md-6 col-lg-6 obras">
+                    <h3 class="h3">Ductaje para F.O.</h3>
+                    <ul class="izquierda">
+                        <li>Barrio La Barraca</li>
+                        <li>Barrio Club de Campo</li>
+                        <li>Barrio Las Araucarias</li>
+                        <li>Barrio Montes de Santa María</li>
+                        <li>Barrio Viejo Olivar</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 obras">
+                    <h3 class="h3">C.C.T.V y Alarmas</h3>
+                    <ul class="derecha">
+                        <li>Mercado Cooperativo de Guaymallén</li>
+                        <li>Facultad de Ciencias Agrarias</li>
+                        <li>Argenfruit S.A.</li>
+                        <li>Casa de Gobierno</li>
+                        <li>A.T.M</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION CLIENTES-->
+
+    <section class="clientes">
+        <h2 class="h2">NUESTROS CLIENTES</h2>
+        <div class="container container-clientes">
+            <div class="row row-clientes">
+                <div class="col-sm-12 col-md-6 col-lg-6 cliente">
+                    <img src="./imagenes/clientes-telecom.jpg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 cliente">
+                    <img src="./imagenes/clientes-westnet.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--FOOTER-->
+
+
+    <footer>
+        <h2  id="contacto">CONTACTO</h2>
+        <div class="contenedor-contacto">
+            <div class="contenedor-formulario">
+                <form action="enviar.php" method="post">
+                                
+                    <label for="">NOMBRE COMPLETO</label>
+                    <input type="text" name="nombre"  required >
+                                
+                    <label for="">CORREO ELECTRONICO</label>
+                    <input type="email" name="email" required>
+                               
+                    <label for="">TELÉFONO</label>
+                    <input type="tel" name="telefono" required >
+                                
+                    <label for="">ASUNTO</label>
+                    <input type="text" name="asunto" required>
+                                
+                    <label for="">MENSAJE</label>
+                    <textarea name="mensaje" id="" cols="32" rows="5" required></textarea>
+                                
+                    <button type="submit" class="boton-form" value="Enviar">Enviar</button>
+                </form>
+            </div>
+            <div class="contenedor-info">
+                <h4>MAS INFO</h4>
+                <ul>
+                    <li><i class="fa-brands fa-whatsapp"></i>   26166666 / 26111111</li>
+                    <li><i class="fa-solid fa-phone"></i>   261111111</li>
+                    <li><i class="fa-solid fa-envelope"></i>   info@tecnoargentina.com</li>
+                </ul>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837.5846398396134!2d-68.82458957082383!3d-32.889215872653196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09254b3bf08d%3A0xb08a77fec68ba3ea!2sGodoy%20Cruz%20509%2C%20M5519FFE%20San%20Jos%C3%A9%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1663424642732!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="direccion">
+                    <h3>Godoy Cruz 509 - Guaymallén - Mendoza - Argentina</h3>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!--  COPYRIGHT-->
+        
+        <div class="copyright">
+            <a href="https://viewerwebdesign.com"><h5>Diseñado por Viewer Web Design</h5></a>
+        </div>
+    </footer>
+    <!--SCRIPTS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    <script src="https://kit.fontawesome.com/291c7585ac.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
