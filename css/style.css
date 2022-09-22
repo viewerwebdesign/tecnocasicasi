@@ -6,7 +6,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background-color: azure;
+    background-image: linear-gradient(to right, #20ee82, #00e0ac, #00d0c8, #00bdd4, #14a8cd);
 }
 
 /*COPYRIGHT*/
@@ -443,11 +443,12 @@ body{
     .presentacion{
         padding: 5%;
         text-align: center;
-        color: white;
-        background-color: rgb(31, 168, 127);
+        color: rgb(240, 245, 246);
+        background-image: linear-gradient(to right, #20ee82, #00e0ac, #00d0c8, #00bdd4, #14a8cd);
     }
     .presentacion h1{
         font-size: 3em;
+        color: #020b09;
     }
     
     .presentacion p{
@@ -460,7 +461,7 @@ body{
     
     .section-servicios{
         padding: 5%;
-        background-color: rgb(9, 9, 56);
+        background-color:#212529;
         color: white ;
     }
     .section-servicios h2{
@@ -505,7 +506,7 @@ body{
 
     .section-nuestasobras{
         padding: 4%;
-        background-image: url(../imagenes/fondoobra4.jpg);
+        background-image: url(../imagenes/FTTH12.png);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -589,7 +590,7 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
-        background-color: rgb(27, 27, 63);
+        background-color:#020b09;
         color: white;
         padding: 2%;
     }
@@ -626,7 +627,7 @@ body{
         outline: none;
         border: 0;
         border-bottom: 1px solid aqua;
-        background-color: rgb(27, 27, 63);
+        background-color: #00e0ac;
         color: white;
     }
 
@@ -634,13 +635,13 @@ body{
         width: 100%;
         outline: none;
         color: white;
-        background-color: rgb(8, 8, 99);
-        border: 3px solid white;
+        background-color:rgb(3, 3, 51);
+        border: 3px solid rgb(255, 255, 255);
         border-radius: 30px;
     }
 
     .contenedor-formulario button:hover{
-        background-color: rgb(3, 3, 51);
+        background-color: rgb(13, 202, 98);
         border: 3px solid aqua;
     }
 
