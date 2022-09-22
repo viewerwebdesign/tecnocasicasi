@@ -169,7 +169,7 @@ body{
 
     .section-nuestasobras{
         padding: 4%;
-        background-image: url(../imagenes/fondoobra4.jpg);
+        background-image: url(../imagenes/FTTH12.png);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -289,7 +289,7 @@ body{
         outline: none;
         border: 0;
         border-bottom: 1px solid aqua;
-        background-color: rgb(27, 27, 63);
+        background-color: #00e0ac;
         color: white;
     }
 
@@ -303,7 +303,7 @@ body{
     }
 
     .contenedor-formulario button:hover{
-        background-color: rgb(3, 3, 51);
+        background-color: rgb(13, 202, 98);
         border: 3px solid aqua;
     }
 
